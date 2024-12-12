@@ -15,3 +15,4 @@ ops = input("km or m? ")
 amount = int(input(f"Amount of {ops}: "))
 
 print(converter(ops, amount))
+print("Bye!")
