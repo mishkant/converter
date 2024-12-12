@@ -7,6 +7,9 @@ def converter(ops, amount):
 	elif ops == "m":
 		return amount / 1000
 
+	elif ops == "mile":
+		return amount * 1.62137
+
 	else:
 		return "Error!"
 
