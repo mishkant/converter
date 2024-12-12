@@ -10,6 +10,10 @@ def converter(ops, amount):
 	elif ops == "mile":
 		return amount * 1.62137
 
+	elif ops == "kmm":
+		return amount / 0.62137
+
+
 	else:
 		return "Error!"
 
